@@ -1,3 +1,7 @@
+<html>
+<head>test
+</head>
+<body>
 <li id="tabKey10000" style="" class="headTab active" data-tabkey='10000'>
                                              <a href="#10000" data-toggle="tab">PARTA</a>
                                              <input type="hidden" name="partaansCount" id="partaansCount" value="0">
@@ -753,7 +757,8 @@ of Java Server Faces.</h4>
                                                                                                                            </ul>   
                                                         </li>
                                                       
-                                                      
+                                               </body>
+					      </html>
 
                                                                                                                                        
                                              
