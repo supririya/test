@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--sign up page for the website-->
+
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <!--navigation bar-->
+        
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                
+                <!--header with name of the website-->
+                
+                <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Health prediction</a>
+                </div>
+                
+                <!--links for login and signup page-->
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+         </nav>
+        
+        <!--sign up page for the website-->
+        
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                        <h2>SIGN UP</h2>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Name" name="name"  required = "true">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control"  placeholder="Email"  name="e-mail" required = "true">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" name="password" required = "true">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Contact" name="contact" required = "true">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control"  placeholder="City" name="city" required = "true">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control"  placeholder="Address" name="address" required = "true">
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-primary">Submit</button></br>
+                            <div class="form-group">
+                                <br><p>Already have an account? <a href="login.html"> Login</a></p>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        
+       
+    </body>
+</html>
